@@ -7,21 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040097B12212EC2400241D97 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040097B02212EC2400241D97 /* MainTabController.swift */; };
+		040097B32212FD2F00241D97 /* PartyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040097B22212FD2F00241D97 /* PartyViewController.swift */; };
+		040097B52212FD8000241D97 /* MemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040097B42212FD7F00241D97 /* MemberViewController.swift */; };
 		0446AEB5221201540098704B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446AEB4221201540098704B /* AppDelegate.swift */; };
-		0446AEB7221201540098704B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446AEB6221201540098704B /* ViewController.swift */; };
+		0446AEB7221201540098704B /* CreatePartyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446AEB6221201540098704B /* CreatePartyViewController.swift */; };
 		0446AEBA221201540098704B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0446AEB8221201540098704B /* Main.storyboard */; };
 		0446AEBC2212016C0098704B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0446AEBB2212016C0098704B /* Assets.xcassets */; };
 		0446AEBF2212016C0098704B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0446AEBD2212016C0098704B /* LaunchScreen.storyboard */; };
+		0446AEDC221201CF0098704B /* SFCompactDisplay-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0446AEC7221201CF0098704B /* SFCompactDisplay-Black.otf */; };
+		0446AEDD221201CF0098704B /* SFCompactDisplay-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0446AEC8221201CF0098704B /* SFCompactDisplay-Bold.otf */; };
+		0446AEDE221201CF0098704B /* SFCompactDisplay-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0446AEC9221201CF0098704B /* SFCompactDisplay-Heavy.otf */; };
+		0446AEDF221201CF0098704B /* SFCompactDisplay-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0446AECA221201CF0098704B /* SFCompactDisplay-Light.otf */; };
+		0446AEE0221201CF0098704B /* SFCompactDisplay-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0446AECB221201CF0098704B /* SFCompactDisplay-Medium.otf */; };
+		0446AEE1221201CF0098704B /* SFCompactDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0446AECC221201CF0098704B /* SFCompactDisplay-Regular.otf */; };
+		0446AEE2221201CF0098704B /* SFCompactDisplay-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0446AECD221201CF0098704B /* SFCompactDisplay-Semibold.otf */; };
+		0446AEE3221201CF0098704B /* SFCompactDisplay-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0446AECE221201CF0098704B /* SFCompactDisplay-Thin.otf */; };
+		0446AEE4221201CF0098704B /* SFCompactDisplay-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0446AECF221201CF0098704B /* SFCompactDisplay-Ultralight.otf */; };
+		0446AEE5221201CF0098704B /* SFCompactText-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0446AED0221201CF0098704B /* SFCompactText-Bold.otf */; };
+		0446AEE6221201CF0098704B /* SFCompactText-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0446AED1221201CF0098704B /* SFCompactText-BoldItalic.otf */; };
+		0446AEE7221201CF0098704B /* SFCompactText-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0446AED2221201CF0098704B /* SFCompactText-Heavy.otf */; };
+		0446AEE8221201CF0098704B /* SFCompactText-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0446AED3221201CF0098704B /* SFCompactText-HeavyItalic.otf */; };
+		0446AEE9221201CF0098704B /* SFCompactText-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0446AED4221201CF0098704B /* SFCompactText-Light.otf */; };
+		0446AEEA221201CF0098704B /* SFCompactText-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0446AED5221201CF0098704B /* SFCompactText-LightItalic.otf */; };
+		0446AEEB221201CF0098704B /* SFCompactText-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0446AED6221201CF0098704B /* SFCompactText-Medium.otf */; };
+		0446AEEC221201D00098704B /* SFCompactText-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0446AED7221201CF0098704B /* SFCompactText-MediumItalic.otf */; };
+		0446AEED221201D00098704B /* SFCompactText-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0446AED8221201CF0098704B /* SFCompactText-Regular.otf */; };
+		0446AEEE221201D00098704B /* SFCompactText-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0446AED9221201CF0098704B /* SFCompactText-RegularItalic.otf */; };
+		0446AEEF221201D00098704B /* SFCompactText-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0446AEDA221201CF0098704B /* SFCompactText-Semibold.otf */; };
+		0446AEF0221201D00098704B /* SFCompactText-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0446AEDB221201CF0098704B /* SFCompactText-SemiboldItalic.otf */; };
+		0446AEF2221206A30098704B /* PartyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446AEF1221206A30098704B /* PartyTableViewCell.swift */; };
+		0446AEF4221219C90098704B /* MemberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446AEF3221219C90098704B /* MemberTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040097B02212EC2400241D97 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		040097B22212FD2F00241D97 /* PartyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyViewController.swift; sourceTree = "<group>"; };
+		040097B42212FD7F00241D97 /* MemberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberViewController.swift; sourceTree = "<group>"; };
 		0446AEB1221201540098704B /* Party.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Party.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0446AEB4221201540098704B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0446AEB6221201540098704B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0446AEB6221201540098704B /* CreatePartyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePartyViewController.swift; sourceTree = "<group>"; };
 		0446AEB9221201540098704B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0446AEBB2212016C0098704B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0446AEBE2212016C0098704B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0446AEC02212016C0098704B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0446AEC7221201CF0098704B /* SFCompactDisplay-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactDisplay-Black.otf"; sourceTree = "<group>"; };
+		0446AEC8221201CF0098704B /* SFCompactDisplay-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactDisplay-Bold.otf"; sourceTree = "<group>"; };
+		0446AEC9221201CF0098704B /* SFCompactDisplay-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactDisplay-Heavy.otf"; sourceTree = "<group>"; };
+		0446AECA221201CF0098704B /* SFCompactDisplay-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactDisplay-Light.otf"; sourceTree = "<group>"; };
+		0446AECB221201CF0098704B /* SFCompactDisplay-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactDisplay-Medium.otf"; sourceTree = "<group>"; };
+		0446AECC221201CF0098704B /* SFCompactDisplay-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactDisplay-Regular.otf"; sourceTree = "<group>"; };
+		0446AECD221201CF0098704B /* SFCompactDisplay-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactDisplay-Semibold.otf"; sourceTree = "<group>"; };
+		0446AECE221201CF0098704B /* SFCompactDisplay-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactDisplay-Thin.otf"; sourceTree = "<group>"; };
+		0446AECF221201CF0098704B /* SFCompactDisplay-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactDisplay-Ultralight.otf"; sourceTree = "<group>"; };
+		0446AED0221201CF0098704B /* SFCompactText-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactText-Bold.otf"; sourceTree = "<group>"; };
+		0446AED1221201CF0098704B /* SFCompactText-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactText-BoldItalic.otf"; sourceTree = "<group>"; };
+		0446AED2221201CF0098704B /* SFCompactText-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactText-Heavy.otf"; sourceTree = "<group>"; };
+		0446AED3221201CF0098704B /* SFCompactText-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactText-HeavyItalic.otf"; sourceTree = "<group>"; };
+		0446AED4221201CF0098704B /* SFCompactText-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactText-Light.otf"; sourceTree = "<group>"; };
+		0446AED5221201CF0098704B /* SFCompactText-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactText-LightItalic.otf"; sourceTree = "<group>"; };
+		0446AED6221201CF0098704B /* SFCompactText-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactText-Medium.otf"; sourceTree = "<group>"; };
+		0446AED7221201CF0098704B /* SFCompactText-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactText-MediumItalic.otf"; sourceTree = "<group>"; };
+		0446AED8221201CF0098704B /* SFCompactText-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactText-Regular.otf"; sourceTree = "<group>"; };
+		0446AED9221201CF0098704B /* SFCompactText-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactText-RegularItalic.otf"; sourceTree = "<group>"; };
+		0446AEDA221201CF0098704B /* SFCompactText-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactText-Semibold.otf"; sourceTree = "<group>"; };
+		0446AEDB221201CF0098704B /* SFCompactText-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactText-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		0446AEF1221206A30098704B /* PartyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyTableViewCell.swift; sourceTree = "<group>"; };
+		0446AEF3221219C90098704B /* MemberTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +107,47 @@
 			isa = PBXGroup;
 			children = (
 				0446AEB4221201540098704B /* AppDelegate.swift */,
-				0446AEB6221201540098704B /* ViewController.swift */,
+				0446AEB6221201540098704B /* CreatePartyViewController.swift */,
 				0446AEB8221201540098704B /* Main.storyboard */,
+				040097B22212FD2F00241D97 /* PartyViewController.swift */,
+				040097B42212FD7F00241D97 /* MemberViewController.swift */,
+				040097B02212EC2400241D97 /* MainTabController.swift */,
+				0446AEF3221219C90098704B /* MemberTableViewCell.swift */,
+				0446AEF1221206A30098704B /* PartyTableViewCell.swift */,
 				0446AEBB2212016C0098704B /* Assets.xcassets */,
 				0446AEBD2212016C0098704B /* LaunchScreen.storyboard */,
 				0446AEC02212016C0098704B /* Info.plist */,
+				0446AEC6221201CF0098704B /* SF Compact */,
 			);
 			path = Party;
+			sourceTree = "<group>";
+		};
+		0446AEC6221201CF0098704B /* SF Compact */ = {
+			isa = PBXGroup;
+			children = (
+				0446AEC7221201CF0098704B /* SFCompactDisplay-Black.otf */,
+				0446AEC8221201CF0098704B /* SFCompactDisplay-Bold.otf */,
+				0446AEC9221201CF0098704B /* SFCompactDisplay-Heavy.otf */,
+				0446AECA221201CF0098704B /* SFCompactDisplay-Light.otf */,
+				0446AECB221201CF0098704B /* SFCompactDisplay-Medium.otf */,
+				0446AECC221201CF0098704B /* SFCompactDisplay-Regular.otf */,
+				0446AECD221201CF0098704B /* SFCompactDisplay-Semibold.otf */,
+				0446AECE221201CF0098704B /* SFCompactDisplay-Thin.otf */,
+				0446AECF221201CF0098704B /* SFCompactDisplay-Ultralight.otf */,
+				0446AED0221201CF0098704B /* SFCompactText-Bold.otf */,
+				0446AED1221201CF0098704B /* SFCompactText-BoldItalic.otf */,
+				0446AED2221201CF0098704B /* SFCompactText-Heavy.otf */,
+				0446AED3221201CF0098704B /* SFCompactText-HeavyItalic.otf */,
+				0446AED4221201CF0098704B /* SFCompactText-Light.otf */,
+				0446AED5221201CF0098704B /* SFCompactText-LightItalic.otf */,
+				0446AED6221201CF0098704B /* SFCompactText-Medium.otf */,
+				0446AED7221201CF0098704B /* SFCompactText-MediumItalic.otf */,
+				0446AED8221201CF0098704B /* SFCompactText-Regular.otf */,
+				0446AED9221201CF0098704B /* SFCompactText-RegularItalic.otf */,
+				0446AEDA221201CF0098704B /* SFCompactText-Semibold.otf */,
+				0446AEDB221201CF0098704B /* SFCompactText-SemiboldItalic.otf */,
+			);
+			path = "SF Compact";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,8 +208,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0446AEE6221201CF0098704B /* SFCompactText-BoldItalic.otf in Resources */,
+				0446AEEB221201CF0098704B /* SFCompactText-Medium.otf in Resources */,
+				0446AEDF221201CF0098704B /* SFCompactDisplay-Light.otf in Resources */,
+				0446AEE9221201CF0098704B /* SFCompactText-Light.otf in Resources */,
+				0446AEE4221201CF0098704B /* SFCompactDisplay-Ultralight.otf in Resources */,
+				0446AEE3221201CF0098704B /* SFCompactDisplay-Thin.otf in Resources */,
+				0446AEDD221201CF0098704B /* SFCompactDisplay-Bold.otf in Resources */,
 				0446AEBF2212016C0098704B /* LaunchScreen.storyboard in Resources */,
+				0446AEDC221201CF0098704B /* SFCompactDisplay-Black.otf in Resources */,
+				0446AEDE221201CF0098704B /* SFCompactDisplay-Heavy.otf in Resources */,
+				0446AEEC221201D00098704B /* SFCompactText-MediumItalic.otf in Resources */,
 				0446AEBC2212016C0098704B /* Assets.xcassets in Resources */,
+				0446AEF0221201D00098704B /* SFCompactText-SemiboldItalic.otf in Resources */,
+				0446AEEF221201D00098704B /* SFCompactText-Semibold.otf in Resources */,
+				0446AEE8221201CF0098704B /* SFCompactText-HeavyItalic.otf in Resources */,
+				0446AEE5221201CF0098704B /* SFCompactText-Bold.otf in Resources */,
+				0446AEEE221201D00098704B /* SFCompactText-RegularItalic.otf in Resources */,
+				0446AEED221201D00098704B /* SFCompactText-Regular.otf in Resources */,
+				0446AEE7221201CF0098704B /* SFCompactText-Heavy.otf in Resources */,
+				0446AEE0221201CF0098704B /* SFCompactDisplay-Medium.otf in Resources */,
+				0446AEEA221201CF0098704B /* SFCompactText-LightItalic.otf in Resources */,
+				0446AEE1221201CF0098704B /* SFCompactDisplay-Regular.otf in Resources */,
+				0446AEE2221201CF0098704B /* SFCompactDisplay-Semibold.otf in Resources */,
 				0446AEBA221201540098704B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +242,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0446AEB7221201540098704B /* ViewController.swift in Sources */,
+				0446AEB7221201540098704B /* CreatePartyViewController.swift in Sources */,
+				040097B52212FD8000241D97 /* MemberViewController.swift in Sources */,
+				040097B32212FD2F00241D97 /* PartyViewController.swift in Sources */,
+				0446AEF2221206A30098704B /* PartyTableViewCell.swift in Sources */,
+				040097B12212EC2400241D97 /* MainTabController.swift in Sources */,
 				0446AEB5221201540098704B /* AppDelegate.swift in Sources */,
+				0446AEF4221219C90098704B /* MemberTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
